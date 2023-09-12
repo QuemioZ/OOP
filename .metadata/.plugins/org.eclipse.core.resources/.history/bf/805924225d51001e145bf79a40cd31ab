@@ -1,0 +1,25 @@
+// Class
+public class Product {
+
+	//Property
+	public String name; 
+	public int price;
+	public int totalPrice; 
+	
+	
+	public void printName() {
+		System.out.println("Naam is " + name);
+	}
+	
+	public void defineName(String name) {
+		this.name = name;
+	}
+	
+	public String description() {
+		String a = "Naam is " + name + "en prijs is " + price;
+		return "Naam is " + name + "en prijs is " + price;
+				
+		// alles onder de return wordt nooit uitgevoerd en dus mag niet!
+		// return "Naam is " + name + "en prijs is " + price
+	}
+}

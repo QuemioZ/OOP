@@ -1,0 +1,8 @@
+
+public class Bird extends Animal {
+
+	//aangeven dat dit van het type "Animal" is
+	
+	protected int featherCount;
+	
+}
